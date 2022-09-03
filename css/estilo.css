@@ -81,6 +81,14 @@ main{
     gap: 20px;
 }
 
+.confirma{
+    position: absolute;
+    top: 76%;
+    left: 45%;
+    width: 35%;
+    
+}
+
 .btn{
     width: 50%;
     padding: 4%;
@@ -96,5 +104,20 @@ main{
 
 .btn:active{
     box-shadow: inset -4px 4px  0 #222 ;
+    font-size: 0.9rem;
+}
+
+.enter{
+
+    background-color: aliceblue;
+    box-shadow:-3px 4px 0 #888 , -5px 7px  0 #333 ;
+    width: 30%;
+    padding: 2%;
+    cursor: pointer;
+    
+}
+
+.enter:active{
+    box-shadow: inset -4px 4px  0 aliceblue;
     font-size: 0.9rem;
 }

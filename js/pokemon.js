@@ -6,6 +6,8 @@ const pokeimg = document.querySelector('.pokemo_img');
 
 const pokeform = document.querySelector('.form');
 
+const pokerconfirma = document.querySelector('.confirma')
+
 const pokesearch = document.querySelector('.pokem-search');
 
 const pokeprev = document.querySelector('.prev');
@@ -75,6 +77,13 @@ pokeform.addEventListener('submit' , (event) =>{
     
 
 } )
+
+pokerconfirma.addEventListener('click', (event) => {
+
+    event.preventDefault();
+
+    renderpoke(pokesearch.value.toLowerCase());
+})
 
 
 pokeprev.addEventListener('click' ,  () => {
